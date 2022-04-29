@@ -1,21 +1,21 @@
 {
   "name": "Tg Eğlence Bot",
   "description": "Pyrogram İle Yazılmış Bir Eğlence Botu",
-  "repository": "https://github.com/AkinYoungSoftware/TgEglenceBot.git",
+  "depo" : "https://github.com/kostok20/dogrulukcesaret.git" ,
   "logo": "https://telegramchannels.me/storage/media-logo/2001/dcgamebot.jpg",
   "keywords": ["telegram", "game", "pyrogram","telegram bot"],
   "env": {
      "BOT_TOKEN": {
-      "description": "@Botfather Den Oluşturduğunuz Botun Apisi"
+      "description" : "5304730527:AAGr4IIISR8YgyeGoX21BySUjMIEB2qRQ1I"
     },
     "OWNER_API_ID": {
-      "description": "API_ID'niz https://my.telegram.org/apps dan ala bilirsiniz"
+      "description" : "11691791"
     },
     "OWNER_API_HASH": {
-      "description": "API_HASH'iniz https://my.telegram.org/apps dan ala bilirsiniz"
+      "description" : "3ece38766ea7e2ca487d285d21f5103a"
     },
     "OWNER_ID": {
-      "description": "Botunuzda Yetmili Olmasini Istediginiz Kisilerin Idleri"
+      "description" : "5286553441"
     }
    },
    "buildpacks": [
