@@ -115,7 +115,7 @@ async def _(client, message):
   if user.id not in OWNER_ID:
     await message.reply_text("**[?]** **Sen Yetkili Birisi degilsin!!**")
     return
-  MOD="cekle"
+  MOD="dekle"
   await message.reply_text("**[?]** **Eklenmesini istedigin Dogruluk Sorunu Giriniz!**")
 
 @K_G.on_message(filters.private)
@@ -133,7 +133,7 @@ async def _(client, message):
       await message.reply_text("**[?]** __Metin Cesaret Sorusu Olarak Eklendi!__")
       return
     if MOD=="dekle":
-      C_LIST.append(str(message.text))
+      D_LIST.append(str(message.text))
       MOD=None
       await message.reply_text("**[?]** __Metin Dogruluk Sorusu Olarak Eklendi!__")
       return
